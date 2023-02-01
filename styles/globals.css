@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html {
+  scroll-behavior: smooth !important;
+  font-family: 'Raleway', sans-serif;
+}
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply bg-[#012033] dark:bg-[#ecf0f3] text-[#ecf0f3] dark:text-[#012033] tracking-wide
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold
+  }
+
+  h1 {
+    @apply text-4xl sm:text-5xl md:text-6xl
+  }
+
+  h2 {
+    @apply text-3xl sm:text-4xl
+  }
+
+  li {
+    @apply cursor-pointer
+  }
+
+  button {
+    @apply shadow-md hover:shadow-lg shadow-[#40e0d0] hover:shadow-[#40e0d0] ease-in duration-200 rounded-xl uppercase bg-[#012033] text-[#ecf0f3] hover:text-[#BBEBE9]
+  }
+}
