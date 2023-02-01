@@ -5,22 +5,8 @@ import {FaLinkedinIn} from 'react-icons/fa';
 import ContactImg from '../public/assets/profile-circle-nobg.png'
 import {HiOutlineChevronDoubleUp} from 'react-icons/hi'
 import {FiTwitter, FiGithub, FiMail} from 'react-icons/fi'
-import ReCAPTCHA from 'react-google-recaptcha';
 
 const Contact = () => {
-  const recaptchaRef = React.createRef();
-
-  const handleSubmit = (event) => {
-    recaptchaRef.current.execute();
-  };
-
-  const onReCAPTCHAChange = (captchaCode) => {
-    if (!captchaCode) {
-      return;
-    }
-    recaptchaRef.current.reset();
-  }
-
   return (
     <div id='contact' className='w-full lg:h-screen selection:text-[#012033] selection:bg-[#40e0d0] dark:selection:text-[#ecf0f3] dark:selection:bg-[#008080]'>
       <div className='max-w-[1240px] m-auto px-8 py-16 w-full'>
@@ -82,15 +68,7 @@ const Contact = () => {
           <div className='col-span-3 w-full h-auto shadow-none border-2 border-[#40e0d0] dark:border-gray-600 hover:shadow-xl shadow-[#40e0d0] hover:shadow-[#40e0d0] dark:shadow-gray-400 ease-in duration-200 rounded-xl lg:p-4'>
             <div className='p-4'>
 
-              <form action='https://www.google.com' method='POST' encType='multipart/form-data' onSubmit={handleSubmit}>
-
-                <ReCAPTCHA
-                  ref={recaptchaRef}
-                  size='invisible'
-                  sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
-                  onChange={onReCAPTCHAChange}
-                />
-
+              <form action='https://www.google.com' method='POST' encType='multipart/form-data'>
                 <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
 
                   <div className='flex flex-col'>
@@ -119,7 +97,7 @@ const Contact = () => {
                   <textarea className='text-black border-2 rounded-lg p-3 border-[#BBEBE9] dark:border-[#012033] dark:bg-white' name='Message' rows='12'></textarea>
                 </div>
 
-                <button type='submit' className='shadow-none hover:shadow-none py-10 w-full p-4 text-[#ecf0f3] hover:text-[#BBEBE9] dark:text-[#012033] dark:hover:text-[#008080] dark:bg-[#ecf0f3] border-2 border-[#40e0d0] dark:border-2 dark:border-[#012033] mt-4'>Send Message</button>
+                <button className='shadow-none hover:shadow-none py-10 w-full p-4 text-[#ecf0f3] hover:text-[#BBEBE9] dark:text-[#012033] dark:hover:text-[#008080] dark:bg-[#ecf0f3] border-2 border-[#40e0d0] dark:border-2 dark:border-[#012033] mt-4'>Send Message</button>
 
               </form>
             </div>
