@@ -68,7 +68,7 @@ const Contact = () => {
           <div className='col-span-3 w-full h-auto shadow-none border-2 border-[#40e0d0] dark:border-gray-600 hover:shadow-xl shadow-[#40e0d0] hover:shadow-[#40e0d0] dark:shadow-gray-400 ease-in duration-200 rounded-xl lg:p-4'>
             <div className='p-4'>
 
-              <form action='https://www.google.com' method='POST' encType='multipart/form-data'>
+              <form action='https://getform.io/f/36e3b5ba-0926-4941-9c9c-2c1bad4b9334' method='POST' encType='multipart/form-data'>
                 <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
 
                   <div className='flex flex-col'>
