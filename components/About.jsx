@@ -13,7 +13,7 @@ const About = () => {
           <div className='mb-8 border-2 border-[#40e0d0] dark:border-gray-600 p-10 rounded-xl hover:shadow-xl hover:shadow-[#40e0d0] dark:shadow-gray-400 hover:scale-[102%] ease-in duration-200'>
             <p className='py-2 text-[#ecf0f3] dark:text-[#012033]'>Just an average AI enthusiast on his quest for knowledge.</p>
             <p className='py-4 text-[#ecf0f3] dark:text-[#012033]'>
-              I am an undergraduate student at Rutgers University-New Brunswick currently pursuing a degree in <span className='text-[#40e0d0] dark:text-[#008080]'> Computer Science </span>
+              I am currently an undergraduate student at Rutgers University-New Brunswick pursuing a degree in <span className='text-[#40e0d0] dark:text-[#008080]'> Computer Science </span>
               and <span className='text-[#40e0d0] dark:text-[#008080]'> Cognitive Science</span>, and am hoping to conduct research involving the potential usage of Deep Learning Models in mental
               health diagnosis and treatment in the future. When I am not coding a strategy game or building a website, you can catch me either playing the guitar or the violin, or
               sketching videogame characters! I also take pride in being a polyglot, because, in addition to English, I am quite proficient in Bengali, Hindi, and Japanese.
