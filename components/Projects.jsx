@@ -8,7 +8,7 @@ import anime_black from '../public/assets/projects/anime-recommender-bw.PNG'
 
 const Projects = () => {
   return (
-    <div id='projects' className='font-montserrat selection:text-[#012033] selection:bg-[#40e0d0] dark:selection:text-[#ecf0f3] dark:selection:bg-[#008080] w-full'>
+    <div id='projects' className='font-montserrat selection:text-[#012033] selection:bg-[#40e0d0] dark:selection:text-[#ecf0f3] dark:selection:bg-[#008080] w-full pt-16'>
       <div className='max-w-[1240px] mx-auto px-8 py-16'>
         <p className='text-xl tracking-widest uppercase text-[#40e0d0] dark:text-[#008080]'>Projects</p>
         <h2 className='py-6 text-[#ecf0f3] dark:text-[#012033]'>What I've Built</h2>
@@ -28,19 +28,6 @@ const Projects = () => {
             projectUrl='/AnimeRecommender'
           />
 
-          <ProjectItem
-            title='Placeholder3'
-            backgroundImg={placeholder}
-            technology='Java'
-            projectUrl='/placeholder'
-          />
-
-          <ProjectItem
-            title='Placeholder4'
-            backgroundImg={placeholder}
-            technology='PyTorch'
-            projectUrl='/placeholder'
-          />
         </div>
       </div>
     </div>
