@@ -30,7 +30,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className={shadow ? 'selection:text-[#012033] selection:bg-[#40e0d0] dark:selection:text-[#ecf0f3] dark:selection:bg-[#008080] fixed w-full h-20 shadow-xl z-[100] bg-[#012033] dark:bg-[#ecf0f3]' : 'selection:text-[#012033] selection:bg-[#40e0d0] dark:selection:text-[#ecf0f3] dark:selection:bg-[#008080] fixed w-full h-20 z-[100] bg-[#012033] dark:bg-[#ecf0f3]'}>
+    <div className={shadow ? 'font-montserrat selection:text-[#012033] selection:bg-[#40e0d0] dark:selection:text-[#ecf0f3] dark:selection:bg-[#008080] fixed w-full h-20 shadow-xl z-[100] bg-[#012033] dark:bg-[#ecf0f3]' : 'font-montserrat selection:text-[#012033] selection:bg-[#40e0d0] dark:selection:text-[#ecf0f3] dark:selection:bg-[#008080] fixed w-full h-20 z-[100] bg-[#012033] dark:bg-[#ecf0f3]'}>
       <div className='flex justify-center items-center w-full h-full px-10 2xl:px-16'>
         <div>
           <ul className='hidden md:flex text-[#ecf0f3] dark:text-[#012033]'>
@@ -60,7 +60,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <div className={nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/50' : ''}>
+      <div className={nav ? 'font-montserrat md:hidden fixed left-0 top-0 w-full h-screen bg-black/50' : ''}>
         <div className={nav ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#012033] dark:bg-[#ecf0f3] p-12 ease-in duration-500' : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'}>
           <div>
             <div className='flex w-full items-center justify-end mb-10'>

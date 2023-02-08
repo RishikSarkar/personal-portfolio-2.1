@@ -65,7 +65,7 @@ function GuitarChordsTFOD() {
   useEffect(() => {runCoco()}, []);
 
   return (
-    <div className='w-screen selection:text-[#012033] selection:bg-[#40e0d0] dark:selection:text-[#ecf0f3] dark:selection:bg-[#008080] h-screen text-center bg-[#012033] dark:bg-[#ecf0f3]'>
+    <div className='font-montserrat w-screen selection:text-[#012033] selection:bg-[#40e0d0] dark:selection:text-[#ecf0f3] dark:selection:bg-[#008080] h-screen text-center bg-[#012033] dark:bg-[#ecf0f3]'>
       <div className='h-[85%] mx-auto p-20 flex justify-center items-top'>
         <div>
           <p className='py-5 text-2xl uppercase tracking-widest text-[#ecf0f3] dark:text-[#012033]'>

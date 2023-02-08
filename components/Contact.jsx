@@ -2,13 +2,13 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import {FaLinkedinIn} from 'react-icons/fa';
-import ContactImg from '../public/assets/profile-circle-nobg.png'
+import ContactImg from '../public/assets/profile-realistic-nobg.png'
 import {HiOutlineChevronDoubleUp} from 'react-icons/hi'
 import {FiTwitter, FiGithub, FiMail} from 'react-icons/fi'
 
 const Contact = () => {
   return (
-    <div id='contact' className='w-full lg:h-screen selection:text-[#012033] selection:bg-[#40e0d0] dark:selection:text-[#ecf0f3] dark:selection:bg-[#008080]'>
+    <div id='contact' className='font-montserrat w-full lg:h-screen selection:text-[#012033] selection:bg-[#40e0d0] dark:selection:text-[#ecf0f3] dark:selection:bg-[#008080]'>
       <div className='max-w-[1240px] m-auto px-8 py-16 w-full'>
         <p className='text-xl tracking-widest uppercase text-[#40e0d0] dark:text-[#008080]'>Contact</p>
         <h2 className='py-6 text-[#ecf0f3] dark:text-[#012033]'>Get In Touch</h2>

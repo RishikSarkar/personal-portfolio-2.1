@@ -6,7 +6,7 @@ import {FiTwitter, FiGithub, FiMail} from 'react-icons/fi';
 
 const Main = () => {
   return (
-    <div id='home' className='selection:text-[#012033] selection:bg-[#40e0d0] dark:selection:text-[#ecf0f3] dark:selection:bg-[#008080] w-full h-screen text-center bg-[#012033] dark:bg-[#ecf0f3]'>
+    <div id='home' className='font-montserrat selection:text-[#012033] selection:bg-[#40e0d0] dark:selection:text-[#ecf0f3] dark:selection:bg-[#008080] w-full h-screen text-center bg-[#012033] dark:bg-[#ecf0f3]'>
       <div className='max-w-[1240px] w-full h-full mx-auto p-10 flex justify-center items-center'>
         <div>
           <p className='py-2 uppercase text-sm tracking-widest text-[#ecf0f3] dark:text-[#012033]'>

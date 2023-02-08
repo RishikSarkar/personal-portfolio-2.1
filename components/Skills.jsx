@@ -5,7 +5,7 @@ import {SiTensorflow, SiKeras, SiTailwindcss} from 'react-icons/si';
 
 const Skills = () => {
   return (
-    <div id='skills' className='selection:text-[#012033] selection:bg-[#40e0d0] dark:selection:text-[#ecf0f3] dark:selection:bg-[#008080] w-full lg:h-screen p-8 -mt-8'>
+    <div id='skills' className='font-montserrat selection:text-[#012033] selection:bg-[#40e0d0] dark:selection:text-[#ecf0f3] dark:selection:bg-[#008080] w-full lg:h-screen p-8 -mt-8'>
       <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full px-8'>
         <p className='text-xl tracking-widest uppercase text-[#40e0d0] dark:text-[#008080]'>Skills</p>
         <h2 className='py-6 text-[#ecf0f3] dark:text-[#012033]'>What I Can Do</h2>

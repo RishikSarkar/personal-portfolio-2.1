@@ -7,7 +7,7 @@ import {useTheme} from 'next-themes'
 
 const property = () => {
   return (
-    <div className='w-full selection:text-[#012033] selection:bg-[#40e0d0] dark:selection:text-[#ecf0f3] dark:selection:bg-[#008080]'>
+    <div className='font-montserrat w-full selection:text-[#012033] selection:bg-[#40e0d0] dark:selection:text-[#ecf0f3] dark:selection:bg-[#008080]'>
       <div className='w-screen h-[40vh] lg:h-[50vh] relative'>
         <div className='absolute top-0 left-0 w-full h-[40vh] lg:h-[50vh] bg-black/80 z-10' />
         <Image className='absolute z-1' layout='fill' objectFit='cover' src={anime_color} alt='/' />
