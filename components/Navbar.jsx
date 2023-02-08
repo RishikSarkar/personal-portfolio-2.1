@@ -63,9 +63,9 @@ const Navbar = () => {
       <div className={nav ? 'font-montserrat md:hidden fixed left-0 top-0 w-full h-screen bg-black/50' : ''}>
         <div className={nav ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#012033] dark:bg-[#ecf0f3] p-12 ease-in duration-500' : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'}>
           <div>
-            <div className='flex w-full items-center justify-end mb-10'>
-              <div onClick={handleNav} className='text-xl text-[#ecf0f3] dark:text-[#012033] hover:text-[#BBEBE9] dark:hover:text-[#008080] shadow-md hover:shadow-lg shadow-[#40e0d0] hover:shadow-[#40e0d0] dark:shadow-gray-400 ease-in duration-200 rounded-full p-4 cursor-pointer'>
-                <BsArrowBarLeft />
+            <div className='flex w-full items-center justify-center mb-12 ml-12 -mt-9'>
+              <div onClick={handleNav} className='p-4 cursor-pointer ml-3'>
+                <AiOutlineMenu className='text-[#ecf0f3] dark:text-[#012033] hover:text-[#BBEBE9] dark:hover:text-[#008080]' size = {25}/>
               </div>
             </div>
             <div className='my-4'>
@@ -74,19 +74,19 @@ const Navbar = () => {
           <div className='py-12 flex flex-col'>
             <ul className='uppercase'>
               <Link href='/'>
-                <li onClick={()=> setNav(false)} className='py-4 text-md text-[#ecf0f3] dark:text-[#012033] hover:text-[#BBEBE9] dark:hover:text-[#008080] hover:border-b hover:border-[#BBEBE9] dark:hover:border-[#008080]'>Home</li>
+                <li onClick={()=> setNav(false)} className='py-4 text-md text-[#ecf0f3] dark:text-[#012033] hover:text-[#BBEBE9] dark:hover:text-[#008080]'>Home</li>
               </Link>
               <Link href='/#about'>
-                <li onClick={()=> setNav(false)} className='py-4 text-md text-[#ecf0f3] dark:text-[#012033] hover:text-[#BBEBE9] dark:hover:text-[#008080] hover:border-b hover:border-[#BBEBE9] dark:hover:border-[#008080]'>About</li>
+                <li onClick={()=> setNav(false)} className='py-4 text-md text-[#ecf0f3] dark:text-[#012033] hover:text-[#BBEBE9] dark:hover:text-[#008080]'>About</li>
               </Link>
               <Link href='/#skills'>
-                <li onClick={()=> setNav(false)} className='py-4 text-md text-[#ecf0f3] dark:text-[#012033] hover:text-[#BBEBE9] dark:hover:text-[#008080] hover:border-b hover:border-[#BBEBE9] dark:hover:border-[#008080]'>Skills</li>
+                <li onClick={()=> setNav(false)} className='py-4 text-md text-[#ecf0f3] dark:text-[#012033] hover:text-[#BBEBE9] dark:hover:text-[#008080]'>Skills</li>
               </Link>
               <Link href='/#projects'>
-                <li onClick={()=> setNav(false)} className='py-4 text-md text-[#ecf0f3] dark:text-[#012033] hover:text-[#BBEBE9] dark:hover:text-[#008080] hover:border-b hover:border-[#BBEBE9] dark:hover:border-[#008080]'>Projects</li>
+                <li onClick={()=> setNav(false)} className='py-4 text-md text-[#ecf0f3] dark:text-[#012033] hover:text-[#BBEBE9] dark:hover:text-[#008080]'>Projects</li>
               </Link>
               <Link href='/#contact'>
-                <li onClick={()=> setNav(false)} className='py-4 text-md text-[#ecf0f3] dark:text-[#012033] hover:text-[#BBEBE9] dark:hover:text-[#008080] hover:border-b hover:border-[#BBEBE9] dark:hover:border-[#008080]'>Contact</li>
+                <li onClick={()=> setNav(false)} className='py-4 text-md text-[#ecf0f3] dark:text-[#012033] hover:text-[#BBEBE9] dark:hover:text-[#008080]'>Contact</li>
               </Link>
 
               <li onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}>
@@ -96,7 +96,7 @@ const Navbar = () => {
 
             </ul>
             <div className='pt-40'>
-              <div className='flex items-center justify-between -my-16 w-full sm:w-[80%]'>
+              <div className='flex items-center justify-between -my-12 w-full sm:w-[80%]'>
 
                 <Link href='https://github.com/RishikSarkar'>
                   <a target='_blank'>
