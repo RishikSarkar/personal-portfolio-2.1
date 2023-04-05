@@ -6,6 +6,7 @@
 html {
   scroll-behavior: smooth !important;
   font-family: 'Raleway', sans-serif;
+  overflow-x: hidden
 }
 
 @font-face {

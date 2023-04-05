@@ -21,10 +21,8 @@ const About = () => {
             <p className='pb-4 text-[#ecf0f3] dark:text-[#012033]'>
               Thanks for taking the time to read about me, and I hope you stick around to learn more.
             </p>
-            <Link href='https://drive.google.com/file/d/1fatP8Cfd3ulfCYG0axTrfKW9pZ0Z2BjY/view?usp=sharing'>
-              <a target='_blank'>
-                <p className='py-2 text-[#40e0d0] dark:text-[#008080] cursor-pointer'>Check out my resume here!</p>
-              </a>
+            <Link href='/resume'>
+              <p className='py-2 text-[#40e0d0] dark:text-[#008080] cursor-pointer'>Check out my resume here!</p>
             </Link>
           </div>
         </div>
