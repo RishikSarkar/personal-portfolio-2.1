@@ -6,7 +6,7 @@
 html {
   scroll-behavior: smooth !important;
   font-family: 'Raleway', sans-serif;
-  overflow-x: hidden
+  overflow-x: hidden;
 }
 
 @font-face {
@@ -84,4 +84,10 @@ html {
   button {
     @apply shadow-md hover:shadow-lg shadow-[#40e0d0] hover:shadow-[#40e0d0] ease-in duration-200 rounded-xl uppercase bg-[#012033] text-[#ecf0f3] hover:text-[#BBEBE9]
   }
+}
+
+.react-pdf__Page__canvas {
+    margin: 0 auto;
+    width: 100% !important;
+    height: 100% !important;
 }
