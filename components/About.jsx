@@ -11,12 +11,15 @@ const About = () => {
           <p className='uppercase text-xl tracking-widest text-[#40e0d0] dark:text-[#008080]'>About</p>
           <h2 className='py-6 text-[#ecf0f3] dark:text-[#012033]'>Who I Am</h2>
           <div className='mb-8 border-2 border-[#40e0d0] dark:border-gray-600 p-10 rounded-xl hover:shadow-xl hover:shadow-[#40e0d0] dark:shadow-gray-400 hover:scale-[102%] ease-in duration-200'>
-            <p className='py-2 text-[#ecf0f3] dark:text-[#012033]'>Just an average AI enthusiast on his quest for knowledge.</p>
+            <p className='pt-2 text-[#ecf0f3] dark:text-[#012033]'>Just an average AI enthusiast on a never-ending quest for knowledge.</p>
             <p className='py-4 text-[#ecf0f3] dark:text-[#012033]'>
-              I am currently an undergraduate student at Rutgers University-New Brunswick pursuing a degree in <span className='text-[#40e0d0] dark:text-[#008080]'> Computer Science </span>
-              and <span className='text-[#40e0d0] dark:text-[#008080]'> Cognitive Science</span>, and am hoping to conduct research involving the potential usage of Deep Learning Models in mental
-              health diagnosis and treatment in the future. When I am not coding a strategy game or building a website, you can catch me either playing the guitar or the violin, or
-              sketching videogame characters! I also take pride in being a polyglot, because, in addition to English, I am quite proficient in Bengali, Hindi, and Japanese.
+              I'm currently studying <span className='text-[#40e0d0] dark:text-[#008080]'> Computer Science </span> and <span className='text-[#40e0d0] dark:text-[#008080]'> Cognitive Science </span>
+              at Rutgers University-New Brunswick: excited to see where this journey will take me. In the future, I hope to research the potential usage of Deep Learning Models in mental health diagnosis
+              and treatment. When I'm not playing with data or building a website, you can usually find me playing my violin or guitar; or sketching my favorite video game characters.
+              I'm also a bit of a polyglot and speak English, Bengali, Hindi, Japanese, and some German. If you speak any of these languages, feel free to say hi in your native tongue!
+            </p>
+            <p className='pb-4 text-[#ecf0f3] dark:text-[#012033]'>
+              Thanks for taking the time to read about me, and I hope you stick around to learn more.
             </p>
             <Link href='https://drive.google.com/file/d/1fatP8Cfd3ulfCYG0axTrfKW9pZ0Z2BjY/view?usp=sharing'>
               <a target='_blank'>

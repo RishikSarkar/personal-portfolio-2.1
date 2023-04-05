@@ -21,16 +21,22 @@ const property = () => {
           <p>Project</p>
           <h2 className='mb-8'>Overview</h2>
           <p className='mb-8'>
-            <p className='mb-2'>&emsp;&emsp;A TensorFlow Object Detection model that I trained to detect and classify guitar chords based on finger shapes in real-time. The model utilizes TensorFlow's pre-trained
-            <span className='text-[#40e0d0] dark:text-[#008080]'> SSD MobileNet V2 FPNLite 640x640 </span> object detection model that was trained on the COCO 2017 dataset. Although the current version can only
-            detect fundamental <span className='text-[#40e0d0] dark:text-[#008080]'> major chords </span> at the moment, it shall be trained on more data in the future in order to increase detection accuracy, and to potentially include minor, dominant 7th, and diminished
-            7th chords in the future. Furthermore, the model can be used to detect chords played by guitarists in muted videos to potentially <span className='text-[#40e0d0] dark:text-[#008080]'> generate chord sheet music in real-time </span> in the future.</p>
-            <p>&emsp;&emsp;As an avid acoustic guitar enthusiast, this was one of the most exciting projects I worked on. Since this was one of my first TensorFlow projects involving real-time object detection,
-            the entire process involved a lot of effort on my part: although the overall learning experience I gained from it made the endeavor worth it in the end. All the image data that was used in training the
-            model was obtained using my <span className='text-[#40e0d0] dark:text-[#008080]'> laptop's webcam </span> and my phone camera using <span className='text-[#40e0d0] dark:text-[#008080]'> Camo</span>. On that note, the model is currently optimized to my personal physical characteristics and to my guitar's features, and
-            thus, I cannot guarantee its scalability to a more diverse audience. Lastly, the model currently requires access to a webcam and an acoustic guitar to be able to effectively predict chord shapes.</p>
-            <p>&emsp;&emsp;I have provided the links to an <span className='text-[#40e0d0] dark:text-[#008080]'> integrated web demo application </span> and to my <span className='text-[#40e0d0] dark:text-[#008080]'> GitHub </span> source code below,
-            so please feel free to check them out and try out the demo if you have a guitar next to you!</p>
+            <p className='mb-2'>
+              &emsp;&emsp;A TensorFlow Object Detection model that I trained to detect and classify guitar chords based on finger shapes in real time. The model utilizes
+              TensorFlow's pre-trained <span className='text-[#40e0d0] dark:text-[#008080]'> SSD MobileNet V2 FPNLite 640x640 </span> object detection model trained on the COCO 2017 dataset. Although
+              the current version can only detect basic chords, I might train it on more data to increase detection accuracy and potentially include minor, dominant 7th, and diminished 7th chords.
+            </p>
+            <p className='mb-2'>
+              &emsp;&emsp;As an avid acoustic guitar enthusiast, this was one of the most exciting projects I worked on. Since this was one of my first TensorFlow projects involving
+              real-time object detection, the entire process involved a lot of effort on my part: although the overall learning experience I gained from it made the endeavor worth it.
+              I used my <span className='text-[#40e0d0] dark:text-[#008080]'> laptop's webcam </span> and <span className='text-[#40e0d0] dark:text-[#008080]'> Camo </span> to collect all the image data used in training the model. On that note, the model is currently optimized to my physical characteristics
+              and my guitar's features, causing it to be difficult to guarantee its scalability to a more diverse audience. Lastly, the model requires access to a webcam and an acoustic
+              guitar to predict chord shapes.
+            </p>
+            <p>
+              &emsp;&emsp;I have provided the links to an <span className='text-[#40e0d0] dark:text-[#008080]'> integrated web demo application </span> and my <span className='text-[#40e0d0] dark:text-[#008080]'> GitHub </span> source
+              code below, so please feel free to check them out and try out the demo if you have a guitar next to you!
+            </p>
           </p>
           <Link href='/gcddemo'>
             <button className='px-8 py-2 mt-4 mr-8 dark:bg-[#ecf0f3] dark:text-[#012033] dark:hover:text-[#008080] shadow-none border-2 border-[#40e0d0] dark:border-gray-600 dark:shadow-gray-400'>Demo</button>
