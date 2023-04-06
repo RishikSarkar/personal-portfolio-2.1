@@ -6,9 +6,9 @@ import Link from 'next/link'
 import {RiRadioButtonFill} from 'react-icons/ri'
 import {useTheme} from 'next-themes'
 
-pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`;
-
 function Resume() {
+  pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`;
+
   const [numPages, setNumPages] = useState(null);
   const[pageNumber, setPageNumber] = useState(1);
 
@@ -25,7 +25,7 @@ function Resume() {
           </p>
           <div className='pb-8'>
             <Document file='../assets/files/Resume.pdf' onLoadSuccess={onDocumentLoadSuccess}>
-              <Page size="A4" pageNumber={pageNumber} renderTextLayer={false} />
+              <Page pageNumber={pageNumber} renderTextLayer={false} />
             </Document>
           </div>
           <div className='items-center mx-auto md:pb-8 grid'>

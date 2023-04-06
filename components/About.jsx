@@ -18,9 +18,6 @@ const About = () => {
               and treatment. When I'm not playing with data or building a website, you can usually find me playing my violin or guitar; or sketching my favorite video game characters.
               I'm also a bit of a polyglot and speak English, Bengali, Hindi, Japanese, and some German. If you speak any of these languages, feel free to say hi in your native tongue!
             </p>
-            <p className='pb-4 text-[#ecf0f3] dark:text-[#012033]'>
-              Thanks for taking the time to read about me, and I hope you stick around to learn more.
-            </p>
             <Link href='/resume'>
               <p className='py-2 text-[#40e0d0] dark:text-[#008080] cursor-pointer'>Check out my resume here!</p>
             </Link>

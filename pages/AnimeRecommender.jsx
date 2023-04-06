@@ -21,16 +21,27 @@ const property = () => {
           <p>Project</p>
           <h2 className='mb-8'>Overview</h2>
           <p className='mb-8'>
-            <p className='mb-2'>&emsp;&emsp;A web-based Anime Recommender System written in <span className='text-[#40e0d0] dark:text-[#008080]'>Python</span> and deployed using <span className='text-[#40e0d0] dark:text-[#008080]'>Flask</span>.
-            The model first extracts genre and synopsis attributes from a CSV file containing data on around 12,300 different anime collected from over 70,000 users of <span className='text-[#40e0d0] dark:text-[#008080]'>myanimelist.net</span>,
-            and then evaluates the relevant features of the 80 percentile (i.e., top 2184) titles by parsing them into Python objects using an <span className='text-[#40e0d0] dark:text-[#008080]'>abstract syntax tree</span> module. The model then
-            appropriately processes the data to generate a metadata soup that is subsequently vectorized using sklearn's <span className='text-[#40e0d0] dark:text-[#008080]'>TfidfVectorizer</span> and <span className='text-[#40e0d0] dark:text-[#008080]'>CountVectorizer </span>
-            tools, in order to find the anime titles that are the most similar to the input title by <span className='text-[#40e0d0] dark:text-[#008080]'>genre</span> and <span className='text-[#40e0d0] dark:text-[#008080]'>plot synopsis</span> according to a generated
-            <span className='text-[#40e0d0] dark:text-[#008080]'> cosine similarity matrix</span>.</p>
-            <p>&emsp;&emsp;The ML pipeline is deployed using <span className='text-[#40e0d0] dark:text-[#008080]'>Flask</span> and <span className='text-[#40e0d0] dark:text-[#008080]'>Gunicorn</span> on Render as a web application. The link to the
-             API is provided below, and can be used to generate anime title recommendations from a supported input. I am currently in the process of incorporating an autocomplete tool that suggests relevant anime titles in the search box using the
-             <span className='text-[#40e0d0] dark:text-[#008080]'> Ajax Autocomplete</span> widget for <span className='text-[#40e0d0] dark:text-[#008080]'>JQuery</span>. The link to the
-             project <span className='text-[#40e0d0] dark:text-[#008080]'>GitHub</span> can also be found below, so feel free to check it out!
+            <p className='mb-2'>
+              &emsp;&emsp;A web-based Anime Recommender System written in <span className='text-[#40e0d0] dark:text-[#008080]'>Python</span> and
+              deployed using <span className='text-[#40e0d0] dark:text-[#008080]'>Flask</span>. The model first extracts the
+              genre and synopsis attributes from a CSV file containing data on around 12,300 different anime collected
+              from over 70,000 users of <span className='text-[#40e0d0] dark:text-[#008080]'>myanimelist.net</span>; then
+              evaluates the relevant features of the 80 percentile (i.e., top 2184) titles by parsing them into Python
+              objects using an <span className='text-[#40e0d0] dark:text-[#008080]'>abstract syntax tree</span> module. The
+              model then appropriately processes the data to generate a metadata soup that I subsequently vectorized
+              using sklearn's <span className='text-[#40e0d0] dark:text-[#008080]'>TfidfVectorizer</span> and
+               <span className='text-[#40e0d0] dark:text-[#008080]'>CountVectorizer</span>, to find the anime titles most similar to the input
+              title by <span className='text-[#40e0d0] dark:text-[#008080]'>genre</span> and <span className='text-[#40e0d0] dark:text-[#008080]'>plot synopsis</span> according
+              to a generated <span className='text-[#40e0d0] dark:text-[#008080]'>cosine similarity matrix</span>.
+            </p>
+            <p>
+              &emsp;&emsp;Finally, I deployed the ML pipeline on <span className='text-[#40e0d0] dark:text-[#008080]'>Render</span> as a web
+              application using <span className='text-[#40e0d0] dark:text-[#008080]'>Flask</span> and <span className='text-[#40e0d0] dark:text-[#008080]'>Gunicorn</span>.
+              The link to the API is provided below and can be used to generate anime title recommendations
+              from a supported input. I am also incorporating an autocomplete tool that suggests relevant
+              anime titles in the search box using the <span className='text-[#40e0d0] dark:text-[#008080]'>Ajax Autocomplete</span> widget
+              for <span className='text-[#40e0d0] dark:text-[#008080]'>JQuery</span>. I added
+              the <span className='text-[#40e0d0] dark:text-[#008080]'>GitHub</span> link to the project source code below, so feel free to check it out!
             </p>
           </p>
           <Link href='https://anime-recommender-flask.onrender.com/'>
