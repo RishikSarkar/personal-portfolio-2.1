@@ -50,15 +50,15 @@ const property = () => {
         <div className='mt-12 md:h-[60%] col-span-4 md:col-span-1 text-[#ecf0f3] dark:text-[#012033] shadow-none border-2 border-[#40e0d0] dark:border-gray-600 hover:shadow-lg shadow-[#40e0d0] hover:shadow-[#40e0d0] dark:hover:shadow-gray-400 ease-in duration-200 rounded-xl p-4'>
           <div className='p-2'>
             <p className='text-center font-bold pb-2'>Resources</p>
-            <div className='grid grid-cols-3 md:grid-cols-1 mt-2'>
+            <div className='grid grid-cols-3 md:grid-cols-1 mt-2 items-center'>
 
-              <p className='py-3 flex items-center'><RiRadioButtonFill className='pr-1' />Python</p>
+              <p className='py-3 flex items-center'>Python</p>
 
-              <p className='py-3 flex items-center'><RiRadioButtonFill className='pr-1' />Jupyter Notebook</p>
+              <p className='py-3 flex items-center'>Jupyter Notebook</p>
 
-              <p className='py-3 flex items-center'><RiRadioButtonFill className='pr-1' />Javascript</p>
+              <p className='py-3 flex items-center'>Javascript</p>
 
-              <p className='py-3 flex items-center'><RiRadioButtonFill className='pr-1' />TensorFlow</p>
+              <p className='py-3 flex items-center'>TensorFlow</p>
 
             </div>
           </div>

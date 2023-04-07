@@ -16,17 +16,17 @@ const Contact = () => {
 
           <div className='col-span-3 lg:col-span-2 w-full h-full shadow-none border-2 border-[#40e0d0] dark:border-gray-600 hover:shadow-xl shadow-[#40e0d0] hover:shadow-[#40e0d0] dark:shadow-gray-400 ease-in duration-200 rounded-xl p-4'>
             <div className='lg:p-4 h-full'>
-              <div>
+              <div className='flex justify-center sm:mt-4 md:mt-0'>
                 <Image className='bg-[#BBEBE9] dark:bg-[#008080] rounded-full border-2 border-[#40e0d0]' height='400' width='400' src={ContactImg} alt='/' />
               </div>
               <div>
-                <h2 className='mt-8 py-2'>Rishik Sarkar</h2>
-                <p>Student</p>
-                <p className='py-4'>I am available for part-time positions. Contact me and let's talk.</p>
+                <h2 className='mt-8 py-2 sm:flex justify-center md:justify-start'>Rishik Sarkar</h2>
+                <p className='sm:flex justify-center md:justify-start'>Student</p>
+                <p className='py-4 sm:flex justify-center md:justify-start'>I am available for part-time positions. Contact me and let's talk.</p>
               </div>
               <div>
-                <p className='uppercase pt-8'>Connect With Me</p>
-                <div className='flex items-center justify-between py-4'>
+                <p className='uppercase pt-4 md:pt-6 sm:flex justify-center md:justify-start sm:pb-4 md:pb-4'>Connect With Me</p>
+                <div className='flex items-center py-4 justify-around md:justify-between'>
 
                   <Link href='https://github.com/RishikSarkar'>
                     <a target='_blank'>
@@ -94,10 +94,10 @@ const Contact = () => {
 
                 <div className='flex flex-col py-2'>
                   <label className='uppercase text-sm py-2'>Message</label>
-                  <textarea className='text-black border-2 rounded-lg p-3 border-[#BBEBE9] dark:border-[#012033] dark:bg-white' name='Message' rows='12'></textarea>
+                  <textarea className='text-black border-2 rounded-lg p-3 border-[#BBEBE9] dark:border-[#012033] dark:bg-white' name='Message' rows='8'></textarea>
                 </div>
 
-                <button className='shadow-none hover:shadow-none py-10 w-full p-4 text-[#ecf0f3] hover:text-[#BBEBE9] dark:text-[#012033] dark:hover:text-[#008080] dark:bg-[#ecf0f3] border-2 border-[#40e0d0] dark:border-2 dark:border-[#012033] mt-4'>Send Message</button>
+                <button className='shadow-none hover:shadow-none py-10 w-full p-4 text-[#ecf0f3] hover:text-[#BBEBE9] dark:text-[#012033] dark:hover:text-[#008080] dark:bg-[#ecf0f3] border-2 border-[#40e0d0] dark:border-2 dark:border-[#012033] mt-6'>Send Message</button>
 
               </form>
             </div>

@@ -60,10 +60,11 @@ const Navbar = () => {
           </div>
         </div>
       </div>
+
       <div className={nav ? 'font-montserrat md:hidden fixed left-0 top-0 w-full h-screen bg-black/50' : ''}>
         <div className={nav ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#012033] dark:bg-[#ecf0f3] p-12 ease-in duration-500' : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'}>
           <div>
-            <div className='flex w-full items-center justify-center mb-12 ml-12 -mt-9'>
+            <div className='flex w-full items-center justify-center mb-12 ml-12 sm:ml-36 -mt-9'>
               <div onClick={handleNav} className='p-4 cursor-pointer ml-3'>
                 <AiOutlineMenu className='text-[#ecf0f3] dark:text-[#012033] hover:text-[#BBEBE9] dark:hover:text-[#008080]' size = {25}/>
               </div>
@@ -96,7 +97,7 @@ const Navbar = () => {
 
             </ul>
             <div className='pt-40'>
-              <div className='flex items-center justify-between -my-12 w-full sm:w-[80%]'>
+              <div className='flex items-center justify-between -my-12 w-full'>
 
                 <Link href='https://github.com/RishikSarkar'>
                   <a target='_blank'>
