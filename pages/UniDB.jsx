@@ -48,9 +48,9 @@ const property = () => {
             <p className='text-center font-bold pb-2'>Resources</p>
             <div className='grid grid-cols-3 md:grid-cols-1 mt-2 items-center'>
 
-              <p className='py-3 flex items-center'>SQL | MySQL</p>
+              <p className='py-3 flex items-center'>MySQL</p>
 
-              <p className='py-3 flex items-center'>Java | JDBC</p>
+              <p className='py-3 flex items-center'>JDBC</p>
 
               <p className='py-3 flex items-center'>Jupyter Notebook</p>
 

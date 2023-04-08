@@ -45,20 +45,6 @@ const MoreProjects = () => {
             projectUrl='/AnimeRecommender'
           />
 
-          <ProjectItem
-            title='Placeholder'
-            backgroundImg={placeholder}
-            technology='Placeholder'
-            projectUrl='/'
-          />
-
-          <ProjectItem
-            title='Placeholder'
-            backgroundImg={placeholder}
-            technology='Placeholder'
-            projectUrl='/'
-          />
-
         </div>
 
         <div className='flex justify-center m-4'>
