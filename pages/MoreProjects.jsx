@@ -5,6 +5,7 @@ import ProjectItem from '../components/ProjectItem'
 import placeholder from '../public/assets/projects/placeholder.png'
 import guitar_black from '../public/assets/projects/guitar_black_dark.PNG'
 import anime_black from '../public/assets/projects/anime-recommender-bw.PNG'
+import mood_black from '../public/assets/projects/mood-tunes-bw.PNG'
 import {FiGithub} from 'react-icons/fi'
 
 const MoreProjects = () => {
@@ -30,10 +31,10 @@ const MoreProjects = () => {
           />
 
           <ProjectItem
-            title='Placeholder'
-            backgroundImg={placeholder}
-            technology='Placeholder'
-            projectUrl='/'
+            title='Mood Tunes'
+            backgroundImg={mood_black}
+            technology='Keras'
+            projectUrl='/MoodTunes'
           />
 
           <ProjectItem
