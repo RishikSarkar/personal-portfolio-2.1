@@ -6,6 +6,7 @@ import placeholder from '../public/assets/projects/placeholder.png'
 import guitar_black from '../public/assets/projects/guitar_black_dark.PNG'
 import anime_black from '../public/assets/projects/anime-recommender-bw.PNG'
 import mood_black from '../public/assets/projects/mood-tunes-bw.PNG'
+import unidb_black from '../public/assets/projects/unidb-bw.PNG'
 import {FiGithub} from 'react-icons/fi'
 
 const MoreProjects = () => {
@@ -15,6 +16,20 @@ const MoreProjects = () => {
         <p className='text-xl tracking-widest uppercase text-[#40e0d0] dark:text-[#008080]'>All Projects</p>
         <h2 className='py-6 text-[#ecf0f3] dark:text-[#012033]'>Welcome To My Workshop</h2>
         <div className='grid sm:grid-cols-2 gap-8 pb-4'>
+
+          <ProjectItem
+            title='UniDB'
+            backgroundImg={unidb_black}
+            technology='SQL | Java'
+            projectUrl='/UniDB'
+          />
+
+          <ProjectItem
+            title='Mood Tunes'
+            backgroundImg={mood_black}
+            technology='Keras'
+            projectUrl='/MoodTunes'
+          />
 
           <ProjectItem
             title='ReChord'
@@ -28,20 +43,6 @@ const MoreProjects = () => {
             backgroundImg={anime_black}
             technology='scikit-learn'
             projectUrl='/AnimeRecommender'
-          />
-
-          <ProjectItem
-            title='Mood Tunes'
-            backgroundImg={mood_black}
-            technology='Keras'
-            projectUrl='/MoodTunes'
-          />
-
-          <ProjectItem
-            title='Placeholder'
-            backgroundImg={placeholder}
-            technology='Placeholder'
-            projectUrl='/'
           />
 
           <ProjectItem

@@ -28,7 +28,7 @@ const property = () => {
               machine learning techniques. The system uses a deep learning model trained on a large dataset of facial expression images labeled with emotions such
               as <span className='text-[#40e0d0] dark:text-[#008080]'>happy</span>, <span className='text-[#40e0d0] dark:text-[#008080]'>sad</span>, <span className='text-[#40e0d0] dark:text-[#008080]'>angry</span>,
               and <span className='text-[#40e0d0] dark:text-[#008080]'>surprised</span>; and a music dataset containing information on different <span className='text-[#40e0d0] dark:text-[#008080]'>genres</span>,
-              <span className='text-[#40e0d0] dark:text-[#008080]'>artists</span>, and <span className='text-[#40e0d0] dark:text-[#008080]'>songs</span>.
+              <span className='text-[#40e0d0] dark:text-[#008080]'> artists</span>, and <span className='text-[#40e0d0] dark:text-[#008080]'>songs</span>.
             </p>
             <p className='mb-2'>
               &emsp;&emsp;To improve the model's accuracy, I utilized <span className='text-[#40e0d0] dark:text-[#008080]'>OpenCV</span> and a <span className='text-[#40e0d0] dark:text-[#008080]'>Haar Cascade classifier</span> to

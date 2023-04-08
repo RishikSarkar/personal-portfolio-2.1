@@ -63,7 +63,7 @@ const property = () => {
             </div>
           </div>
         </div>
-        <Link href='/#projects'>
+        <Link href='/MoreProjects'>
           <p className='mt-4 uppercase underline cursor-pointer text-[#ecf0f3] dark:text-[#012033] hover:text-[#BBEBE9] dark:hover:text-[#008080]'>Back</p>
         </Link>
       </div>
