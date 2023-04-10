@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import {RiRadioButtonFill} from 'react-icons/ri'
-import placeholder from '../public/assets/projects/placeholder.jpg'
+import placeholder from '../../public/assets/projects/placeholder.jpg'
 import {useTheme} from 'next-themes'
 
 const property = () => {

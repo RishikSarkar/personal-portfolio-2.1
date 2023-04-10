@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import {RiRadioButtonFill} from 'react-icons/ri'
-import unidb_color from '../public/assets/projects/unidb-color.PNG'
+import unidb_color from '../../public/assets/projects/unidb-color.PNG'
 import {useTheme} from 'next-themes'
 
 const property = () => {
@@ -59,7 +59,7 @@ const property = () => {
             </div>
           </div>
         </div>
-        <Link href='/MoreProjects'>
+        <Link href='/#projects'>
           <p className='mt-4 uppercase underline cursor-pointer text-[#ecf0f3] dark:text-[#012033] hover:text-[#BBEBE9] dark:hover:text-[#008080]'>Back</p>
         </Link>
       </div>

@@ -8,7 +8,7 @@ import * as tf from '@tensorflow/tfjs'
 import {nextFrame} from '@tensorflow/tfjs'
 import Webcam from 'react-webcam'
 import {loadGraphModel} from '@tensorflow/tfjs-converter'
-import {drawRect} from '../utilities'
+import {drawRect} from '../../utilities'
 
 function GuitarChordsTFOD() {
   const webcamRef = useRef(null);
@@ -86,7 +86,7 @@ function GuitarChordsTFOD() {
         </div>
       </div>
       <div className='items-center mx-auto -mt-12 md:mt-0 md:py-8 p-8 grid md:grid-cols-5'>
-        <Link href='/GuitarChordDetector'>
+        <Link href='/projects/GuitarChordDetector'>
           <p className='uppercase underline cursor-pointer text-[#ecf0f3] dark:text-[#012033] hover:text-[#BBEBE9] dark:hover:text-[#008080]'>Back</p>
         </Link>
       </div>

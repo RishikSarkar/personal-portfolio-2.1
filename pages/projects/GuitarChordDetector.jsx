@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import {RiRadioButtonFill} from 'react-icons/ri'
-import guitar_black from '../public/assets/projects/guitar_black.jpg'
+import guitar_black from '../../public/assets/projects/guitar_black.jpg'
 import {useTheme} from 'next-themes'
 
 const property = () => {
@@ -38,7 +38,7 @@ const property = () => {
               code below, so please feel free to check them out and try out the demo if you have a guitar next to you!
             </p>
           </p>
-          <Link href='/gcddemo'>
+          <Link href='/projects/gcddemo'>
             <button className='px-8 py-2 mt-4 mr-8 dark:bg-[#ecf0f3] dark:text-[#012033] dark:hover:text-[#008080] shadow-none border-2 border-[#40e0d0] dark:border-gray-600 dark:shadow-gray-400'>Demo</button>
           </Link>
           <Link href='https://github.com/RishikSarkar/GuitarChordsTFOD'>
@@ -63,7 +63,7 @@ const property = () => {
             </div>
           </div>
         </div>
-        <Link href='/MoreProjects'>
+        <Link href='/#projects'>
           <p className='mt-4 uppercase underline cursor-pointer text-[#ecf0f3] dark:text-[#012033] hover:text-[#BBEBE9] dark:hover:text-[#008080]'>Back</p>
         </Link>
       </div>

@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import {RiRadioButtonFill} from 'react-icons/ri'
-import mood_color from '../public/assets/projects/mood-tunes-color.PNG'
+import mood_color from '../../public/assets/projects/mood-tunes-color.PNG'
 import {useTheme} from 'next-themes'
 
 const property = () => {

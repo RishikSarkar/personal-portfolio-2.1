@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import {RiRadioButtonFill} from 'react-icons/ri'
-import anime_color from '../public/assets/projects/anime-recommender-color.PNG'
+import anime_color from '../../public/assets/projects/anime-recommender-color.PNG'
 import {useTheme} from 'next-themes'
 
 const property = () => {

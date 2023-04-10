@@ -7,6 +7,7 @@ import guitar_black from '../public/assets/projects/guitar_black_dark.PNG'
 import anime_black from '../public/assets/projects/anime-recommender-bw.PNG'
 import mood_black from '../public/assets/projects/mood-tunes-bw.PNG'
 import unidb_black from '../public/assets/projects/unidb-bw.PNG'
+import chess_black from '../public/assets/projects/chess-bw.PNG'
 import {FiGithub} from 'react-icons/fi'
 
 const MoreProjects = () => {
@@ -21,28 +22,42 @@ const MoreProjects = () => {
             title='UniDB'
             backgroundImg={unidb_black}
             technology='SQL | Java'
-            projectUrl='/UniDB'
+            projectUrl='/projects/UniDB'
           />
 
           <ProjectItem
             title='Mood Tunes'
             backgroundImg={mood_black}
             technology='Keras'
-            projectUrl='/MoodTunes'
+            projectUrl='/projects/MoodTunes'
           />
 
           <ProjectItem
             title='ReChord'
             backgroundImg={guitar_black}
             technology='TensorFlow'
-            projectUrl='/GuitarChordDetector'
+            projectUrl='/projects/GuitarChordDetector'
           />
 
           <ProjectItem
             title='Anim.ai'
             backgroundImg={anime_black}
             technology='scikit-learn'
-            projectUrl='/AnimeRecommender'
+            projectUrl='/projects/AnimeRecommender'
+          />
+
+          <ProjectItem
+            title='Chess'
+            backgroundImg={chess_black}
+            technology='Java | JavaFX'
+            projectUrl='/projects/Chess'
+          />
+
+          <ProjectItem
+            title='Placeholder'
+            backgroundImg={placeholder}
+            technology='Placeholder'
+            projectUrl='/projects/placeholder'
           />
 
         </div>
