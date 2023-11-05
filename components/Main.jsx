@@ -50,7 +50,7 @@ const Main = () => {
                   An Undergraduate Developer
                 </h1>
                 <p className='py-4 text-[#ecf0f3] dark:text-[#012033] max-w-[65%] m-auto'>
-                  I'm currently a Junior at Rutgers University-New Brunswick with a passion
+                  I'm currently a Senior at Rutgers University-New Brunswick with a passion
                   for <span className='text-[#40e0d0] dark:text-[#008080]'> Machine Learning </span> and <span className='text-[#40e0d0] dark:text-[#008080]'> Web Development</span>. Welcome to my personal website!
                 </p>
                 <div className='select-none flex items-center justify-between max-w-[330px] m-auto py-4'>
