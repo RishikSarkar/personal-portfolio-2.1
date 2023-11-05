@@ -1,9 +1,7 @@
 import React from 'react'
-import Image from 'next/image'
 import Link from 'next/link'
 import ProjectItem from './ProjectItem'
-import placeholder from '../public/assets/projects/placeholder.png'
-import guitar_black from '../public/assets/projects/guitar_black_dark.PNG'
+import tchai_black from '../public/assets/projects/placeholder.png'
 import unidb_black from '../public/assets/projects/unidb-bw.PNG'
 
 const Projects = () => {
@@ -15,17 +13,17 @@ const Projects = () => {
         <div className='grid sm:grid-cols-2 gap-8 pb-4'>
 
           <ProjectItem
+            title='Tch.ai'
+            backgroundImg={tchai_black}
+            technology='Keras | Flask'
+            projectUrl='/projects/Tchai'
+          />
+
+          <ProjectItem
             title='UniDB'
             backgroundImg={unidb_black}
             technology='SQL | Java'
             projectUrl='/projects/UniDB'
-          />
-
-          <ProjectItem
-            title='ReChord'
-            backgroundImg={guitar_black}
-            technology='TensorFlow'
-            projectUrl='/projects/GuitarChordDetector'
           />
 
         </div>

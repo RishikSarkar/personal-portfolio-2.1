@@ -22,16 +22,32 @@ const property = () => {
           <h2 className='mb-8'>Overview</h2>
           <p className='mb-8'>
             <p className='mb-2'>
-              &emsp;&emsp;I developed two Chess projects using <span className='text-[#40e0d0] dark:text-[#008080]'>Java</span> as part of my Software Methodology (<span className='text-[#40e0d0] dark:text-[#008080]'>01:198:213</span>) course.
+              I developed two Chess projects using <span className='text-[#40e0d0] dark:text-[#008080]'>Java</span> as part of my 
+              Software Methodology (<span className='text-[#40e0d0] dark:text-[#008080]'>01:198:213</span>) course.
             </p>
             <p className='mb-2'>
-              &emsp;&emsp;The first project is a <span className='text-[#40e0d0] dark:text-[#008080]'>terminal-based</span> Chess application that allowed me to showcase my understanding of the fundamental aspects of <span className='text-[#40e0d0] dark:text-[#008080]'>Java</span> and <span className='text-[#40e0d0] dark:text-[#008080]'>OOP</span>, such as <span className='text-[#40e0d0] dark:text-[#008080]'>inheritance</span>, <span className='text-[#40e0d0] dark:text-[#008080]'>polymorphism</span>, and <span className='text-[#40e0d0] dark:text-[#008080]'>abstraction</span>. It also required me to implement some complex functionality mechanics of the game and continuously check and account for edge cases. Finally, I created <span className='text-[#40e0d0] dark:text-[#008080]'>Javadoc</span> comments to elaborate on all the methods and algorithms involved. Although the project was supposed to be a paired programming project, I had to <span className='text-[#40e0d0] dark:text-[#008080]'>complete it on my own within a week</span>: which I am proud of.
+              &emsp;&emsp;The first project is a terminal-based Chess application that allowed me to showcase my understanding of the fundamental 
+              aspects of <span className='text-[#40e0d0] dark:text-[#008080]'>Java</span> and OOP, such as inheritance, polymorphism, and abstraction. 
+              It also required me to implement some complex functionality mechanics of the game and continuously check and account for edge cases. 
+              Finally, I created <span className='text-[#40e0d0] dark:text-[#008080]'>Javadoc</span> comments to elaborate on all the methods 
+              and algorithms involved. Although the project was supposed to be a paired programming project, I had to complete it on my 
+              own within a week, which I am proud of.
             </p>
             <p className='mb-2'>
-              &emsp;&emsp;The second project is an <span className='text-[#40e0d0] dark:text-[#008080]'>Android</span> Chess application developed using <span className='text-[#40e0d0] dark:text-[#008080]'>JavaFX</span> in <span className='text-[#40e0d0] dark:text-[#008080]'>Android Studio</span>. In this project, I demonstrated my understanding of software engineering basics by implementing several features: an <span className='text-[#40e0d0] dark:text-[#008080]'>"AI" button</span> to make a random legal move for a player, an <span className='text-[#40e0d0] dark:text-[#008080]'>undo button</span> to reverse the last played move, and options to <span className='text-[#40e0d0] dark:text-[#008080]'>draw</span>, <span className='text-[#40e0d0] dark:text-[#008080]'>resign</span>, <span className='text-[#40e0d0] dark:text-[#008080]'>checkmate</span>, or <span className='text-[#40e0d0] dark:text-[#008080]'>stalemate</span> a game. Additionally, users can <span className='text-[#40e0d0] dark:text-[#008080]'>save recorded games</span> with their preferred names and <span className='text-[#40e0d0] dark:text-[#008080]'>sort</span> them by date or title. The project showcases my ability to create practical applications using <span className='text-[#40e0d0] dark:text-[#008080]'>JavaFX</span> and my grasp of <span className='text-[#40e0d0] dark:text-[#008080]'>software engineering</span> principles.
+              &emsp;&emsp;The second project is an <span className='text-[#40e0d0] dark:text-[#008080]'>Android</span> Chess application 
+              developed using <span className='text-[#40e0d0] dark:text-[#008080]'>JavaFX</span> in 
+              <span className='text-[#40e0d0] dark:text-[#008080]'> Android Studio</span>. In this project, I demonstrated my understanding 
+              of software engineering basics by implementing several features: an "AI" button to make a random legal move for a player, 
+              an undo button to reverse the last played move, and options to draw, resign, checkmate, or stalemate a game. Additionally, 
+              users can save recorded games with their preferred names and sort them by date or title. The project showcases my ability 
+              to create practical applications using <span className='text-[#40e0d0] dark:text-[#008080]'>JavaFX</span> and my grasp of 
+              software engineering principles.
             </p>
             <p>
-              &emsp;&emsp;Overall these Chess projects demonstrate my <span className='text-[#40e0d0] dark:text-[#008080]'>programming proficiency</span> and ability to implement complex features in <span className='text-[#40e0d0] dark:text-[#008080]'>practical applications</span>. It is a testament to the skills and knowledge I gained through coursework and represents my passion for software development. I added the <span className='text-[#40e0d0] dark:text-[#008080]'>GitHub</span> link to the project source code below, so feel free to check it out!
+              &emsp;&emsp;Overall, these Chess projects demonstrate my programming proficiency and ability to implement complex features 
+              in practical applications. It is a testament to the skills and knowledge I gained through coursework and represents my passion 
+              for software development. I added the <span className='text-[#40e0d0] dark:text-[#008080]'>GitHub</span> link to the project 
+              source code below, so feel free to check it out!
             </p>
           </p>
           <Link href='https://github.com/RishikSarkar/Chess'>

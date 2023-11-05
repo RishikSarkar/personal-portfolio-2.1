@@ -22,13 +22,9 @@ const property = () => {
           <h2 className='mb-8'>Overview</h2>
           <p className='mb-8'>
             <p className='mb-2'>
-              &emsp;&emsp;Mood Tunes is a Facial <span className='text-[#40e0d0] dark:text-[#008080]'>Emotion
-              Recognition</span> and <span className='text-[#40e0d0] dark:text-[#008080]'>Music Recommendation</span> System I
-              developed using <span className='text-[#40e0d0] dark:text-[#008080]'>Python</span>, <span className='text-[#40e0d0] dark:text-[#008080]'>Keras</span>, and
-              machine learning techniques. The system uses a deep learning model trained on a large dataset of facial expression images labeled with emotions such
-              as <span className='text-[#40e0d0] dark:text-[#008080]'>happy</span>, <span className='text-[#40e0d0] dark:text-[#008080]'>sad</span>, <span className='text-[#40e0d0] dark:text-[#008080]'>angry</span>,
-              and <span className='text-[#40e0d0] dark:text-[#008080]'>surprised</span>; and a music dataset containing information on different <span className='text-[#40e0d0] dark:text-[#008080]'>genres</span>,
-              <span className='text-[#40e0d0] dark:text-[#008080]'> artists</span>, and <span className='text-[#40e0d0] dark:text-[#008080]'>songs</span>.
+              &emsp;&emsp;Mood Tunes is a facial emotion recognition and music recommendation system I developed using <span className='text-[#40e0d0] dark:text-[#008080]'>Keras</span> and
+              various computer vision techniques. The system uses a deep learning model trained on a large dataset of facial expression images labeled with emotions such
+              as happy, sad, angry, and surprised and a music dataset containing information on different genres, artists, and songs.
             </p>
             <p className='mb-2'>
               &emsp;&emsp;To improve the model's accuracy, I utilized <span className='text-[#40e0d0] dark:text-[#008080]'>OpenCV</span> and a <span className='text-[#40e0d0] dark:text-[#008080]'>Haar Cascade classifier</span> to
@@ -36,9 +32,8 @@ const property = () => {
               which helped me identify patterns and insights that could further refine the model.
             </p>
             <p>
-              &emsp;&emsp;The final product, <span className='text-[#40e0d0] dark:text-[#008080]'>Mood Tunes</span>, allows users to <span className='text-[#40e0d0] dark:text-[#008080]'>upload an image</span> of their facial expression and
-              receive a <span className='text-[#40e0d0] dark:text-[#008080]'>recommended music playlist</span> based on the predicted mood. The project demonstrates the potential of deep learning and computer vision techniques
-              to <span className='text-[#40e0d0] dark:text-[#008080]'>understand human emotions</span> and personalize user recommendations. I added the <span className='text-[#40e0d0] dark:text-[#008080]'>GitHub</span> link to the project source
+              &emsp;&emsp;The final product, Mood Tunes, allows users to upload an image of their facial expression and receive a recommended music playlist based on the predicted mood. The project demonstrates the potential of 
+              deep learning and computer vision techniques to classify human emotions and personalize user recommendations. I added the <span className='text-[#40e0d0] dark:text-[#008080]'>GitHub</span> link to the project source
               code below, so feel free to check it out!
             </p>
           </p>

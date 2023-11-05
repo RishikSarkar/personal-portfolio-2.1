@@ -1,9 +1,9 @@
 import React from 'react'
 import Link from 'next/link'
-import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai';
-import {FaLinkedinIn} from 'react-icons/fa';
-import {FiTwitter, FiGithub, FiMail} from 'react-icons/fi';
-import {motion} from 'framer-motion';
+import { FaLinkedinIn } from 'react-icons/fa';
+import { FiGithub, FiMail } from 'react-icons/fi';
+import { RiTwitterXLine } from 'react-icons/ri';
+import { motion } from 'framer-motion';
 
 const easing = [.6, -.05, .01, .9]
 
@@ -50,14 +50,14 @@ const Main = () => {
                   An Undergraduate Developer
                 </h1>
                 <p className='py-4 text-[#ecf0f3] dark:text-[#012033] max-w-[65%] m-auto'>
-                  I'm currently a Senior at Rutgers University-New Brunswick with a passion
-                  for <span className='text-[#40e0d0] dark:text-[#008080]'> Machine Learning </span> and <span className='text-[#40e0d0] dark:text-[#008080]'> Web Development</span>. Welcome to my personal website!
+                  I'm currently a Senior at Rutgers University interested in <span className='text-[#40e0d0] dark:text-[#008080]'> chatbots </span> and
+                  <span className='text-[#40e0d0] dark:text-[#008080]'> mental healthcare</span>. Welcome to my personal website!
                 </p>
                 <div className='select-none flex items-center justify-between max-w-[330px] m-auto py-4'>
 
                   <Link href='https://github.com/RishikSarkar'>
                     <a target='_blank'>
-                      <div className='text-[#ecf0f3] dark:text-[#012033] hover:text-[#BBEBE9] dark:hover:text-[#008080] rounded-full shadow-md hover:shadow-lg shadow-[#40e0d0] hover:shadow-[#40e0d0] dark:shadow-gray-400 p-6 curson-pointer hover:scale-110 ease-in duration-200 cursor-pointer'>
+                      <div className='text-[#ecf0f3] dark:text-[#012033] hover:text-[#BBEBE9] dark:hover:text-[#008080] rounded-full shadow-md hover:shadow-lg shadow-[#40e0d0] hover:shadow-[#40e0d0] dark:shadow-gray-400 p-6 hover:scale-110 ease-in duration-200 cursor-pointer'>
                         <FiGithub />
                       </div>
                     </a>
@@ -65,23 +65,23 @@ const Main = () => {
 
                   <Link href='https://www.linkedin.com/in/Rishik-Sarkar/'>
                     <a target='_blank'>
-                      <div className='text-[#ecf0f3] dark:text-[#012033] hover:text-[#BBEBE9] dark:hover:text-[#008080] rounded-full shadow-md hover:shadow-lg shadow-[#40e0d0] hover:shadow-[#40e0d0] dark:shadow-gray-400 p-6 curson-pointer hover:scale-110 ease-in duration-200 cursor-pointer'>
+                      <div className='text-[#ecf0f3] dark:text-[#012033] hover:text-[#BBEBE9] dark:hover:text-[#008080] rounded-full shadow-md hover:shadow-lg shadow-[#40e0d0] hover:shadow-[#40e0d0] dark:shadow-gray-400 p-6 hover:scale-110 ease-in duration-200 cursor-pointer'>
                         <FaLinkedinIn />
                       </div>
                     </a>
                   </Link>
 
-                  <Link href='https://twitter.com/RishikSarkar_'>
+                  <Link href='https://x.com/RishikSarkar_'>
                     <a target='_blank'>
-                      <div className='text-[#ecf0f3] dark:text-[#012033] hover:text-[#BBEBE9] dark:hover:text-[#008080] rounded-full shadow-md hover:shadow-lg shadow-[#40e0d0] hover:shadow-[#40e0d0] dark:shadow-gray-400 p-6 curson-pointer hover:scale-110 ease-in duration-200 cursor-pointer'>
-                        <FiTwitter />
+                      <div className='text-[#ecf0f3] dark:text-[#012033] hover:text-[#BBEBE9] dark:hover:text-[#008080] rounded-full shadow-md hover:shadow-lg shadow-[#40e0d0] hover:shadow-[#40e0d0] dark:shadow-gray-400 p-6 hover:scale-110 ease-in duration-200 cursor-pointer'>
+                        <RiTwitterXLine />
                       </div>
                     </a>
                   </Link>
 
                   <Link href='mailto:rishiksarkar02@gmail.com'>
                     <a target='_blank'>
-                      <div className='text-[#ecf0f3] dark:text-[#012033] hover:text-[#BBEBE9] dark:hover:text-[#008080] rounded-full shadow-md hover:shadow-lg shadow-[#40e0d0] hover:shadow-[#40e0d0] dark:shadow-gray-400 p-6 curson-pointer hover:scale-110 ease-in duration-200 cursor-pointer'>
+                      <div className='text-[#ecf0f3] dark:text-[#012033] hover:text-[#BBEBE9] dark:hover:text-[#008080] rounded-full shadow-md hover:shadow-lg shadow-[#40e0d0] hover:shadow-[#40e0d0] dark:shadow-gray-400 p-6 hover:scale-110 ease-in duration-200 cursor-pointer'>
                         <FiMail />
                       </div>
                     </a>

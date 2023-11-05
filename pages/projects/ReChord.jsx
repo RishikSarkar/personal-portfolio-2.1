@@ -22,19 +22,19 @@ const property = () => {
           <h2 className='mb-8'>Overview</h2>
           <p className='mb-8'>
             <p className='mb-2'>
-              &emsp;&emsp;A TensorFlow Object Detection model that I trained to detect and classify guitar chords based on finger shapes in real time. The model utilizes
-              TensorFlow's pre-trained <span className='text-[#40e0d0] dark:text-[#008080]'> SSD MobileNet V2 FPNLite 640x640 </span> object detection model trained on the COCO 2017 dataset. Although
+              &emsp;&emsp;A <span className='text-[#40e0d0] dark:text-[#008080]'>TensorFlow</span> object detection model that I trained to detect and classify guitar chords based on finger shapes in real-time. The model utilizes
+              TensorFlow's pre-trained <span className='text-[#40e0d0] dark:text-[#008080]'> SSD MobileNet V2 FPNLite 640x640 </span> object detection model trained on the <span className='text-[#40e0d0] dark:text-[#008080]'>COCO 2017</span> dataset. Although
               the current version can only detect basic chords, I might train it on more data to increase detection accuracy and potentially include minor, dominant 7th, and diminished 7th chords.
             </p>
             <p className='mb-2'>
-              &emsp;&emsp;As an avid acoustic guitar enthusiast, this was one of the most exciting projects I worked on. Since this was one of my first TensorFlow projects involving
-              real-time object detection, the entire process involved a lot of effort on my part: although the overall learning experience I gained from it made the endeavor worth it.
-              I used my <span className='text-[#40e0d0] dark:text-[#008080]'> laptop's webcam </span> and <span className='text-[#40e0d0] dark:text-[#008080]'> Camo </span> to collect all the image data used in training the model. On that note, the model is currently optimized to my physical characteristics
-              and my guitar's features, causing it to be difficult to guarantee its scalability to a more diverse audience. Lastly, the model requires access to a webcam and an acoustic
-              guitar to predict chord shapes.
+              &emsp;&emsp;As an avid guitar enthusiast, this was one of the most exciting projects I worked on. Since this was one of my first TensorFlow projects involving
+              real-time object detection, the entire process involved a lot of effort on my part, although the overall learning experience I gained from it made the endeavor worth it.
+              I used my laptop's webcam and <span className='text-[#40e0d0] dark:text-[#008080]'>Camo</span> to collect all the image data used in training the model. On that note, the
+              model is currently optimized to my physical characteristics and my guitar's features, causing it to be difficult to guarantee its scalability to a more diverse audience. 
+              Lastly, the model requires access to a webcam and an acoustic guitar to predict chord shapes.
             </p>
             <p>
-              &emsp;&emsp;I have provided the links to an <span className='text-[#40e0d0] dark:text-[#008080]'> integrated web demo application </span> and my <span className='text-[#40e0d0] dark:text-[#008080]'> GitHub </span> source
+              &emsp;&emsp;I have provided the links to an integrated web demo application and my <span className='text-[#40e0d0] dark:text-[#008080]'>GitHub</span> source
               code below, so please feel free to check them out and try out the demo if you have a guitar next to you!
             </p>
           </p>
@@ -54,11 +54,11 @@ const property = () => {
 
               <p className='py-3 flex items-center'>Python</p>
 
-              <p className='py-3 flex items-center'>Jupyter Notebook</p>
+              <p className='py-3 flex items-center'>TensorFlow</p>
 
               <p className='py-3 flex items-center'>Javascript</p>
 
-              <p className='py-3 flex items-center'>TensorFlow</p>
+              <p className='py-3 flex items-center'>AWS</p>
 
             </div>
           </div>

@@ -1,17 +1,16 @@
-import Image from 'next/image'
-import React, {useState, useEffect} from 'react'
+import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
-import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai';
-import {FaLinkedinIn} from 'react-icons/fa';
-import {BsMoon, BsSun, BsArrowBarLeft} from 'react-icons/bs';
-import {FiTwitter, FiGithub, FiMail} from 'react-icons/fi';
-import logo from "../public/assets/logo.jpg"
-import {useTheme} from 'next-themes'
+import { AiOutlineMenu } from 'react-icons/ai';
+import { FaLinkedinIn } from 'react-icons/fa';
+import { BsMoon, BsSun } from 'react-icons/bs';
+import { FiGithub, FiMail } from 'react-icons/fi';
+import { RiTwitterXLine } from 'react-icons/ri';
+import { useTheme } from 'next-themes'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const {theme, setTheme} = useTheme();
+  const { theme, setTheme } = useTheme();
 
   const handleNav = () => {
     setNav(!nav);
@@ -56,7 +55,7 @@ const Navbar = () => {
             </li>
           </ul>
           <div onClick={handleNav} className='md:hidden cursor-pointer'>
-            <AiOutlineMenu className='text-[#ecf0f3] dark:text-[#012033] hover:text-[#BBEBE9] dark:hover:text-[#008080]' size = {25}/>
+            <AiOutlineMenu className='text-[#ecf0f3] dark:text-[#012033] hover:text-[#BBEBE9] dark:hover:text-[#008080]' size={25} />
           </div>
         </div>
       </div>
@@ -66,7 +65,7 @@ const Navbar = () => {
           <div>
             <div className='flex w-full items-center justify-center mb-12 ml-12 sm:ml-36 -mt-9'>
               <div onClick={handleNav} className='p-4 cursor-pointer ml-3'>
-                <AiOutlineMenu className='text-[#ecf0f3] dark:text-[#012033] hover:text-[#BBEBE9] dark:hover:text-[#008080]' size = {25}/>
+                <AiOutlineMenu className='text-[#ecf0f3] dark:text-[#012033] hover:text-[#BBEBE9] dark:hover:text-[#008080]' size={25} />
               </div>
             </div>
             <div className='my-4'>
@@ -75,19 +74,19 @@ const Navbar = () => {
           <div className='py-12 flex flex-col'>
             <ul className='uppercase'>
               <Link href='/'>
-                <li onClick={()=> setNav(false)} className='py-4 text-md text-[#ecf0f3] dark:text-[#012033] hover:text-[#BBEBE9] dark:hover:text-[#008080]'>Home</li>
+                <li onClick={() => setNav(false)} className='py-4 text-md text-[#ecf0f3] dark:text-[#012033] hover:text-[#BBEBE9] dark:hover:text-[#008080]'>Home</li>
               </Link>
               <Link href='/#about'>
-                <li onClick={()=> setNav(false)} className='py-4 text-md text-[#ecf0f3] dark:text-[#012033] hover:text-[#BBEBE9] dark:hover:text-[#008080]'>About</li>
+                <li onClick={() => setNav(false)} className='py-4 text-md text-[#ecf0f3] dark:text-[#012033] hover:text-[#BBEBE9] dark:hover:text-[#008080]'>About</li>
               </Link>
               <Link href='/#skills'>
-                <li onClick={()=> setNav(false)} className='py-4 text-md text-[#ecf0f3] dark:text-[#012033] hover:text-[#BBEBE9] dark:hover:text-[#008080]'>Skills</li>
+                <li onClick={() => setNav(false)} className='py-4 text-md text-[#ecf0f3] dark:text-[#012033] hover:text-[#BBEBE9] dark:hover:text-[#008080]'>Skills</li>
               </Link>
               <Link href='/#projects'>
-                <li onClick={()=> setNav(false)} className='py-4 text-md text-[#ecf0f3] dark:text-[#012033] hover:text-[#BBEBE9] dark:hover:text-[#008080]'>Projects</li>
+                <li onClick={() => setNav(false)} className='py-4 text-md text-[#ecf0f3] dark:text-[#012033] hover:text-[#BBEBE9] dark:hover:text-[#008080]'>Projects</li>
               </Link>
               <Link href='/#contact'>
-                <li onClick={()=> setNav(false)} className='py-4 text-md text-[#ecf0f3] dark:text-[#012033] hover:text-[#BBEBE9] dark:hover:text-[#008080]'>Contact</li>
+                <li onClick={() => setNav(false)} className='py-4 text-md text-[#ecf0f3] dark:text-[#012033] hover:text-[#BBEBE9] dark:hover:text-[#008080]'>Contact</li>
               </Link>
 
               <li onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}>
@@ -118,7 +117,7 @@ const Navbar = () => {
                 <Link href='https://twitter.com/RishikSarkar_'>
                   <a target='_blank'>
                     <div className='text-[#ecf0f3] dark:text-[#012033] hover:text-[#BBEBE9] dark:hover:text-[#008080] rounded-full shadow-md hover:shadow-lg shadow-[#40e0d0] hover:shadow-[#40e0d0] dark:shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-200'>
-                      <FiTwitter />
+                      <RiTwitterXLine />
                     </div>
                   </a>
                 </Link>

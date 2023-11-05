@@ -1,7 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import placeholder from '../public/assets/projects/placeholder.png'
 
 const ProjectItem = ({title, backgroundImg, technology, projectUrl}) => {
   return (

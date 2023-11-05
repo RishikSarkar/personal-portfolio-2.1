@@ -22,17 +22,15 @@ const property = () => {
           <h2 className='mb-8'>Overview</h2>
           <p className='mb-8'>
             <p className='mb-2'>
-              &emsp;&emsp;A web-based Anime Recommender System written in <span className='text-[#40e0d0] dark:text-[#008080]'>Python</span> and
+              &emsp;&emsp;A web-based anime recommender system developed in <span className='text-[#40e0d0] dark:text-[#008080]'>Python</span> and
               deployed using <span className='text-[#40e0d0] dark:text-[#008080]'>Flask</span>. The model first extracts the
-              genre and synopsis attributes from a CSV file containing data on around 12,300 different anime collected
-              from over 70,000 users of <span className='text-[#40e0d0] dark:text-[#008080]'>myanimelist.net</span>; then
+              genre and synopsis attributes from a <span className='text-[#40e0d0] dark:text-[#008080]'>CSV</span> file containing data on 
+              around 12,300 different anime titles collected from over 70,000 users of <span className='text-[#40e0d0] dark:text-[#008080]'>myanimelist.net</span>; then
               evaluates the relevant features of the 80 percentile (i.e., top 2184) titles by parsing them into Python
-              objects using an <span className='text-[#40e0d0] dark:text-[#008080]'>abstract syntax tree</span> module. The
-              model then appropriately processes the data to generate a metadata soup that I subsequently vectorized
+              objects using an abstract syntax tree module. The model then appropriately processes the data to generate a metadata soup that I subsequently vectorized
               using sklearn's <span className='text-[#40e0d0] dark:text-[#008080]'>TfidfVectorizer</span> and
-               <span className='text-[#40e0d0] dark:text-[#008080]'>CountVectorizer</span>, to find the anime titles most similar to the input
-              title by <span className='text-[#40e0d0] dark:text-[#008080]'>genre</span> and <span className='text-[#40e0d0] dark:text-[#008080]'>plot synopsis</span> according
-              to a generated <span className='text-[#40e0d0] dark:text-[#008080]'>cosine similarity matrix</span>.
+              <span className='text-[#40e0d0] dark:text-[#008080]'> CountVectorizer</span> to find the anime titles most similar to the input
+              title by genre and plot synopsis according to a generated cosine similarity matrix.
             </p>
             <p>
               &emsp;&emsp;Finally, I deployed the ML pipeline on <span className='text-[#40e0d0] dark:text-[#008080]'>Render</span> as a web

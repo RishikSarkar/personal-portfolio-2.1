@@ -23,17 +23,15 @@ const property = () => {
           <p className='mb-8'>
             <p className='mb-2'>
               &emsp;&emsp;UniDB is a project I developed as part of my Principles of Information and Data Management (<span className='text-[#40e0d0] dark:text-[#008080]'>01:198:336</span>) class.
-              For the project, I <span className='text-[#40e0d0] dark:text-[#008080]'>generated data</span> for 100 university students using various data structures and scraped course data from Rutgers University
+              For the project, I generated data for 100 university students using various data structures and scraped course data from Rutgers University
               websites using <span className='text-[#40e0d0] dark:text-[#008080]'>Beautiful Soup</span> and <span className='text-[#40e0d0] dark:text-[#008080]'>Requests</span>. I subsequently used this data
-              to create a <span className='text-[#40e0d0] dark:text-[#008080]'>MySQL</span> database containing realistic data for 100 <span className='text-[#40e0d0] dark:text-[#008080]'>students</span>, including their <span className='text-[#40e0d0] dark:text-[#008080]'>majors</span>,
-              <span className='text-[#40e0d0] dark:text-[#008080]'> minors</span>, <span className='text-[#40e0d0] dark:text-[#008080]'>total credits</span>, and <span className='text-[#40e0d0] dark:text-[#008080]'>class schedules</span>,
-              which I extracted from a list of over 250 distinct scraped classes.
+              to create a <span className='text-[#40e0d0] dark:text-[#008080]'>MySQL</span> database containing realistic data for 100 students, including their majors,
+              minors, total credits, and class schedules, which I extracted from a list of over 250 distinct scraped classes.
             </p>
             <p>
-              &emsp;&emsp;To access the data in the <span className='text-[#40e0d0] dark:text-[#008080]'>MySQL</span> server, I developed a Java application using the <span className='text-[#40e0d0] dark:text-[#008080]'>JDBC API</span>,
-              which allowed me to query the database and retrieve information about the students' <span className='text-[#40e0d0] dark:text-[#008080]'>schedules</span> and other details. The project demonstrates the potential of
-              <span className='text-[#40e0d0] dark:text-[#008080]'> data scraping</span> and <span className='text-[#40e0d0] dark:text-[#008080]'>database management</span> techniques to create realistic datasets for research or education;
-              and the importance of effective <span className='text-[#40e0d0] dark:text-[#008080]'>data querying</span> and management tools in efficiently accessing and utilizing large amounts of data.
+              &emsp;&emsp;To access the data in the <span className='text-[#40e0d0] dark:text-[#008080]'>MySQL</span> server, I developed a <span className='text-[#40e0d0] dark:text-[#008080]'>Java</span> application using the <span className='text-[#40e0d0] dark:text-[#008080]'>JDBC API</span>,
+              which allowed me to query the database and retrieve information about the students' schedules and other details. The project demonstrates the potential of data scraping and database management techniques to create realistic datasets for research or education
+              and the importance of effective data querying and management tools in efficiently accessing and utilizing large amounts of data.
               I added the <span className='text-[#40e0d0] dark:text-[#008080]'>GitHub</span> link to the project source code below, so feel free to check it out!
             </p>
           </p>

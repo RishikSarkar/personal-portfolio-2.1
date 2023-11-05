@@ -69,7 +69,7 @@ function GuitarChordsTFOD() {
       <div className='h-[85%] mx-auto p-20 flex justify-center items-top'>
         <div>
           <p className='py-5 text-2xl uppercase tracking-widest text-[#ecf0f3] dark:text-[#012033]'>
-            Guitar Chord Detector Demo
+            ReChord Demo
           </p>
         </div>
         <div className='py-32 md:py-16'>
@@ -86,7 +86,7 @@ function GuitarChordsTFOD() {
         </div>
       </div>
       <div className='items-center mx-auto -mt-12 md:mt-0 md:py-8 p-8 grid md:grid-cols-5'>
-        <Link href='/projects/GuitarChordDetector'>
+        <Link href='/projects/ReChord'>
           <p className='uppercase underline cursor-pointer text-[#ecf0f3] dark:text-[#012033] hover:text-[#BBEBE9] dark:hover:text-[#008080]'>Back</p>
         </Link>
       </div>

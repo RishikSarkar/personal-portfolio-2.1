@@ -8,7 +8,7 @@ import anime_black from '../public/assets/projects/anime-recommender-bw.PNG'
 import mood_black from '../public/assets/projects/mood-tunes-bw.PNG'
 import unidb_black from '../public/assets/projects/unidb-bw.PNG'
 import chess_black from '../public/assets/projects/chess-bw.PNG'
-import {FiGithub} from 'react-icons/fi'
+import { FiGithub } from 'react-icons/fi'
 
 const MoreProjects = () => {
   return (
@@ -17,6 +17,13 @@ const MoreProjects = () => {
         <p className='text-xl tracking-widest uppercase text-[#40e0d0] dark:text-[#008080]'>All Projects</p>
         <h2 className='py-6 text-[#ecf0f3] dark:text-[#012033]'>Welcome To My Workshop</h2>
         <div className='grid sm:grid-cols-2 gap-8 pb-4'>
+
+          <ProjectItem
+            title='Tch.ai'
+            backgroundImg={placeholder}
+            technology='Keras | Flask'
+            projectUrl='/projects/Tchai'
+          />
 
           <ProjectItem
             title='UniDB'
@@ -36,14 +43,14 @@ const MoreProjects = () => {
             title='ReChord'
             backgroundImg={guitar_black}
             technology='TensorFlow'
-            projectUrl='/projects/GuitarChordDetector'
+            projectUrl='/projects/ReChord'
           />
 
           <ProjectItem
             title='Anim.ai'
             backgroundImg={anime_black}
             technology='scikit-learn'
-            projectUrl='/projects/AnimeRecommender'
+            projectUrl='/projects/Animai'
           />
 
           <ProjectItem
@@ -51,13 +58,6 @@ const MoreProjects = () => {
             backgroundImg={chess_black}
             technology='Java | JavaFX'
             projectUrl='/projects/Chess'
-          />
-
-          <ProjectItem
-            title='Placeholder'
-            backgroundImg={placeholder}
-            technology='Placeholder'
-            projectUrl='/projects/placeholder'
           />
 
         </div>
