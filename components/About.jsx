@@ -38,6 +38,9 @@ const About = () => {
             <Link href='/resume'>
               <p className='py-1 text-[#40e0d0] dark:text-[#008080] cursor-pointer'>Check out my resume here!</p>
             </Link>
+            <Link href='/cv'>
+              <p className='py-1 text-[#40e0d0] dark:text-[#008080] cursor-pointer'>Check out my CV here!</p>
+            </Link>
             <Link href='https://criticalai.org/2023/07/31/student-insights-the-dark-side-of-chatbot-therapy/'>
               <a target='_blank'>
                 <p className='py-1 text-[#40e0d0] dark:text-[#008080] cursor-pointer'>Read one of my recent articles here</p>

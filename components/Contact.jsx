@@ -1,11 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import {FaLinkedinIn} from 'react-icons/fa';
+import { FaLinkedinIn } from 'react-icons/fa';
 import ContactImg from '../public/assets/profile-realistic-nobg.png'
-import {HiOutlineChevronDoubleUp} from 'react-icons/hi'
-import {FiGithub, FiMail} from 'react-icons/fi'
-import {RiTwitterXLine} from 'react-icons/ri';
+import { HiOutlineChevronDoubleUp } from 'react-icons/hi'
+import { FiGithub, FiMail } from 'react-icons/fi'
+import { RiTwitterXLine } from 'react-icons/ri';
 
 const Contact = () => {
   return (
@@ -18,11 +18,13 @@ const Contact = () => {
           <div className='col-span-3 lg:col-span-2 w-full h-full shadow-none border-2 border-[#40e0d0] dark:border-gray-600 hover:shadow-xl shadow-[#40e0d0] hover:shadow-[#40e0d0] dark:shadow-gray-400 ease-in duration-200 rounded-xl p-4'>
             <div className='lg:p-4 h-full'>
               <div className='flex justify-center sm:mt-4 md:mt-0'>
-                <Image className='bg-[#BBEBE9] dark:bg-[#008080] rounded-full border-2 border-[#40e0d0]' height='300' width='300' src={ContactImg} alt='/' />
+                <div className='flex items-center justify-center rounded-full border-4 border-[#40e0d0] dark:border-gray-600 h-[300px] w-[300px]'>
+                  <Image className='rounded-full' height='300' width='300' src={ContactImg} alt='/' />
+                </div>
               </div>
               <div>
                 <h2 className='mt-8 py-2 sm:flex justify-center md:justify-start px-4'>Rishik Sarkar</h2>
-                <p className='sm:flex justify-center md:justify-start px-4'>Student</p>
+                <p className='sm:flex justify-center md:justify-start px-4'>CS Honors Student</p>
               </div>
               <div>
                 <p className='uppercase pt-4 md:pt-6 sm:flex justify-center md:justify-start sm:pb-4 md:pb-4 px-4'>Connect With Me</p>
@@ -78,7 +80,7 @@ const Contact = () => {
 
                   <div className='flex flex-col'>
                     <label className='uppercase text-sm py-2'>Phone Number</label>
-                    <input className='text-black border-2 rounded-lg p-2 flex border-[#BBEBE9] dark:border-[#012033] dark:bg-white outline-none'name='Phone Number' type="text" />
+                    <input className='text-black border-2 rounded-lg p-2 flex border-[#BBEBE9] dark:border-[#012033] dark:bg-white outline-none' name='Phone Number' type="text" />
                   </div>
                 </div>
 
